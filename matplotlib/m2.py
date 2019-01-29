@@ -30,6 +30,10 @@ _xtick_labels += ["11点{}分".format(i-60) for i in range(60,120)]
 plt.xticks(_x[::3],_xtick_labels[::3],rotation=45,fontproperties=my_font)
 # plt.xlabel()
 
+plt.xlabel("时间",fontproperties=my_font)
+plt.ylabel("温度",fontproperties=my_font)
+plt.title("25小时温度变化",fontproperties=my_font)
+
 # 绘图
 plt.plot(x,y)
 
