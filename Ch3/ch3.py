@@ -125,3 +125,34 @@ X_teams_expanded = onehot.fit_transform(X_teams).todense()
 clf = DecisionTreeClassifier(random_state=14)
 scores = cross_val_score(clf, X_teams_expanded, y_true, scoring='accuracy')
 print("Accuracy: {0:.1f}%".format(np.mean(scores) * 100))
+
+from sklearn.ensemble import RandomForestClassifier
+
+# 更换分类器
+clf = RandomForestClassifier(random_state=14)
+scores = cross_val_score(clf, X_teams, y_true, scoring='accuracy')
+print("Using full team labels is ranked higher")
+print("Accuracy: {0:.1f}%".format(np.mean(scores) * 100))
+
+# hstack水平方向堆叠
+X_all = np.hstack([X_home_higher, X_teams])
+clf = RandomForestClassifier(random_state=14)
+success = cross_val_score(clf, X_all, y_true, scoring="accuracy")
+print("Accuracy: {0:.1f}%".format(np.mean(success) * 100))
+
+# 调整最佳参数
+from sklearn.grid_search import GridSearchCV
+
+parameter_space = {
+    "max_features": [2, 10, 'auto'],
+    "n_estimators": [100, ],
+    "criterion": ["gini", "entropy"],
+    "min_samples_leaf": [2, 4, 6],
+}
+clf = RandomForestClassifier(random_state=14)
+grid = GridSearchCV(clf, parameter_space)
+grid.fit(X_all, y_true)
+print("Accuracy: {0:.1f}%".format(grid.best_score_ * 100))
+print(grid.best_estimator_)
+
+

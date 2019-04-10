@@ -112,3 +112,24 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.JPG
+*.data
+Ch2/Data/ionosphere.names
+*.csv
+*.TEST
+*.TRAIN
+Ch4/data/ml-100k/allbut.pl
+Ch4/data/ml-100k/mku.sh
+Ch4/data/ml-100k/README
+Ch4/data/ml-100k/u.genre
+Ch4/data/ml-100k/u.info
+Ch4/data/ml-100k/u.item
+Ch4/data/ml-100k/u.occupation
+Ch4/data/ml-100k/u.user
+Ch4/data/ml-100k/u1.base
+Ch4/data/ml-100k/u2.base
+Ch4/data/ml-100k/u3.base
+Ch4/data/ml-100k/u4.base
+Ch4/data/ml-100k/u5.base
+Ch4/data/ml-100k/ua.base
+Ch4/data/ml-100k/ub.base
