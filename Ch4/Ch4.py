@@ -80,6 +80,7 @@ for k in range(2, 20):
         sys.stdout.flush()
         break
     else:
+        print(cur_frequent_itemsets)
         print("I found {} frequent itemsets of length {}".format(
             len(cur_frequent_itemsets), k))
         #print(cur_frequent_itemsets)

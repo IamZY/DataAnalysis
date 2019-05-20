@@ -34,3 +34,4 @@ d2["name"][0] = np.nan
 pd.DataFrame(d2)
 
 d2["age"].mean()
+
