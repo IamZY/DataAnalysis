@@ -1,5 +1,14 @@
 # 数据分析
 
+```python
+import pandas as pd
+import scipy.stats as ss
+import matplotlib
+%matplotlib inline
+
+matplotlib.rcParams["font.sans-serif"] = ["SimHei"]
+```
+
 ## 数值变量
 
 + 单个分类变量 呈现原始频数
