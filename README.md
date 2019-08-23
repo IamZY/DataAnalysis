@@ -88,17 +88,37 @@ matplotlib.rcParams["font.sans-serif"] = ["SimHei"]
 
 Tableau
 
+# 数据挖掘
 
++ 加载数据，观察问题
++ 针对问题给出解决方案
++ 数据集切分
++ 评估方法对比
++ 构建模型
++ 建模结果分析
++ 方案效果对比
 
+## 加载数据
 
++ 数据标准化
 
+  公式：$(x-u)/s$
 
+  ```python
+  # 数据标准化处理
+  from sklearn.preprocessing import StandardScaler
+  # reshape 一维数组化二维数组
+  data["normAmount"] = StandardScaler().fit_transform(data["Amount"].values.reshape(-1,1))
+  
+  data = data.drop(["Time","Amount"],axis = 1)
+  data.head()
+  ```
 
+## 数据集划分
 
++ 训练集 验证集 测试集
 
-
-
-
++ 随机分
 
 
 
