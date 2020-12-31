@@ -64,7 +64,7 @@ class LinearRegression:
     def cost_function(self, data, labels):
         num_examples = data.shape[0]
         delta = LinearRegression.hypothesis(self.data, self.theta) - labels
-        cost = (1 / 2) * np.dot(delta.T, delta)
+        cost = (1 / 2) * np.dot(delta.T, delta) / num_examples
         return cost[0][0]
 
     @staticmethod
@@ -99,3 +99,5 @@ class LinearRegression:
                                               self.normalize_data
                                               )[0]
         predictions = LinearRegression.hypothesis(data_processed, self.theta)
+
+        return predictions
