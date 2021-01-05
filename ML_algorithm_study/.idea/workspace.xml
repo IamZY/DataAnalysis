@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4854c729-15e0-4363-900d-7128102ca00b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LinearRegression/MultivariateLinearRegression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinearRegression/Non-linearRegression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinearRegression/UnivariateLinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinearRegression/UnivariateLinearRegression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinearRegression/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinearRegression/linear_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearRegression/temp-plot.html" beforeDir="false" afterPath="$PROJECT_DIR$/LinearRegression/temp-plot.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinearRegression/linear_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="66" column="62" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
+            <state relative-caret-position="286">
+              <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -30,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinearRegression/UnivariateLinearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="418">
               <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -39,11 +39,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinearRegression/MultivariateLinearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2508">
-              <caret line="125" column="26" lean-forward="true" selection-start-line="125" selection-start-column="26" selection-end-line="125" selection-end-column="26" />
+            <state relative-caret-position="2090">
+              <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LinearRegression/Non-linearRegression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="761">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/features/normalize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
+            <state relative-caret-position="440">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
@@ -69,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/features/prepare_for_training.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="462">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#41#59#0" expanded="true" />
@@ -99,17 +111,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/LinearRegression/__init__.py" />
-        <option value="$PROJECT_DIR$/LinearRegression/linear_regression.py" />
         <option value="$PROJECT_DIR$/LinearRegression/UnivariateLinearRegression.py" />
         <option value="$PROJECT_DIR$/LinearRegression/UnivariateLinearRegression2.py" />
+        <option value="$PROJECT_DIR$/LinearRegression/linear_regression.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="726" />
-    <option name="y" value="42" />
-    <option name="width" value="1905" />
-    <option name="height" value="970" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="159" />
+    <option name="y" value="157" />
+    <option name="width" value="2239" />
+    <option name="height" value="1233" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -187,7 +199,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.UnivariateLinearRegression2">
+  <component name="RunManager" selected="Python.Non-linearRegression">
+    <configuration name="MultivariateLinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_algorithm_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinearRegression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinearRegression/MultivariateLinearRegression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Non-linearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_algorithm_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinearRegression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinearRegression/Non-linearRegression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnivariateLinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_algorithm_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,6 +290,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Non-linearRegression" />
+        <item itemvalue="Python.MultivariateLinearRegression" />
         <item itemvalue="Python.UnivariateLinearRegression2" />
         <item itemvalue="Python.UnivariateLinearRegression" />
       </list>
@@ -249,38 +307,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609247679986</updated>
-      <workItem from="1609247681088" duration="18642000" />
+      <workItem from="1609247681088" duration="19388000" />
+      <workItem from="1609758988976" duration="1376000" />
+      <workItem from="1609765469037" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18642000" />
+    <option name="totallyTimeSpent" value="20767000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="159" y="157" width="2239" height="1233" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19274896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22668113" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17197452" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" weight="0.8955224" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.291877" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +348,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ML_algorithm_study$UnivariateLinearRegression.coverage" NAME="UnivariateLinearRegression Coverage Results" MODIFIED="1609399156225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/ML_algorithm_study$UnivariateLinearRegression2.coverage" NAME="UnivariateLinearRegression2 Coverage Results" MODIFIED="1609401818616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
+    <SUITE FILE_PATH="coverage/ML_algorithm_study$MultivariateLinearRegression.coverage" NAME="MultivariateLinearRegression Coverage Results" MODIFIED="1609414465267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
+    <SUITE FILE_PATH="coverage/ML_algorithm_study$Non_linearRegression.coverage" NAME="Non-linearRegression Coverage Results" MODIFIED="1609759466643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/fashion-mnist-demo.csv">
@@ -317,34 +378,17 @@
     <entry file="file://$PROJECT_DIR$/LinearRegression/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/world-happiness-report-2017.csv">
+    <entry file="file://D:/python37/Lib/site-packages/pandas/core/indexes/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/features/normalize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/features/prepare_for_training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#41#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="199">
+          <caret line="2889" selection-start-line="2889" selection-end-line="2889" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinearRegression/linear_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="66" column="62" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
+        <state relative-caret-position="286">
+          <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -353,7 +397,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinearRegression/UnivariateLinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="418">
           <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -361,17 +405,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/python37/Lib/site-packages/pandas/core/indexes/base.py">
+    <entry file="file://$PROJECT_DIR$/LinearRegression/MultivariateLinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="2889" selection-start-line="2889" selection-end-line="2889" />
+        <state relative-caret-position="2090">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinearRegression/MultivariateLinearRegression.py">
+    <entry file="file://$PROJECT_DIR$/utils/features/normalize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2508">
-          <caret line="125" column="26" lean-forward="true" selection-start-line="125" selection-start-column="26" selection-end-line="125" selection-end-column="26" />
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/world-happiness-report-2017.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/features/prepare_for_training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/Non-linearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
